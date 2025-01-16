@@ -1,0 +1,9 @@
+```javascript
+// ... your Tailwind CSS configuration ...
+module.exports = {
+  // ... other configurations ...
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}', './components/**/*.{js,jsx,ts,tsx}'], // Updated content array
+  // ... more configurations ...
+};
+```
+The solution includes adding the paths to your component files to the `content` array.  This ensures Tailwind scans all the necessary files to find the classes used and generate the corresponding CSS output.
